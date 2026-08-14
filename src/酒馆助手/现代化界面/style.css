@@ -920,7 +920,7 @@ body.th-modern-enabled .th-modern-drawer-fullscreen-toggle.bi::before {
   }
 
   body.th-modern-enabled #form_sheld {
-    position: absolute;
+    position: absolute !important;
     right: max(8px, env(safe-area-inset-right));
     bottom: var(--th-modern-effective-input-bottom-gap);
     left: max(8px, env(safe-area-inset-left));
